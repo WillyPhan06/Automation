@@ -1,0 +1,10 @@
+pandas
+requests
+beautifulsoup4
+openpyxl
+gspread
+oauth2client
+PyPDF2
+reportlab
+schedule
+python-dotenv
