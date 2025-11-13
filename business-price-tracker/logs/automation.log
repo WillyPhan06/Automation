@@ -4,3 +4,5 @@
 2025-11-12 14:45:49,404 - INFO - Fetched 10 items from API.
 2025-11-12 14:45:49,410 - INFO - Succeeded attempt: 1
 2025-11-12 14:45:49,597 - INFO - Saved raw data to data/raw/raw_data.csv
+2025-11-13 16:40:46,399 - INFO - Loaded 10 rows from cleaned data
+2025-11-13 16:40:46,406 - INFO - PDF report saved: reports/daily_report.pdf
