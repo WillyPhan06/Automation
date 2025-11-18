@@ -6,3 +6,30 @@
 2025-11-12 14:45:49,597 - INFO - Saved raw data to data/raw/raw_data.csv
 2025-11-13 16:40:46,399 - INFO - Loaded 10 rows from cleaned data
 2025-11-13 16:40:46,406 - INFO - PDF report saved: reports/daily_report.pdf
+2025-11-18 08:04:46,888 - INFO - Starting scrape attempt: 1
+2025-11-18 08:04:48,050 - INFO - Scraped page 1 successfully
+2025-11-18 08:04:48,050 - INFO - Succeeded scrape attempt: 1
+2025-11-18 08:04:48,069 - INFO - Saved scraped data to data\raw\scraped_books.csv
+2025-11-18 08:06:30,645 - INFO - Starting scrape attempt: 1
+2025-11-18 08:06:31,737 - INFO - Scraped page 1 successfully
+2025-11-18 08:06:31,737 - INFO - Succeeded scrape attempt: 1
+2025-11-18 08:06:31,744 - INFO - Saved scraped data to data\raw\scraped_books.csv
+2025-11-18 08:06:49,487 - INFO - Starting scrape attempt: 1
+2025-11-18 08:06:50,548 - INFO - Scraped page 1 successfully
+2025-11-18 08:06:50,548 - INFO - Succeeded scrape attempt: 1
+2025-11-18 08:06:50,548 - INFO - Saved scraped data to data\raw\scraped_books.csv
+2025-11-18 08:11:35,502 - INFO - Starting scrape attempt: 1
+2025-11-18 08:11:36,648 - INFO - Scraped page 1 successfully
+2025-11-18 08:11:36,648 - INFO - Succeeded scrape attempt: 1
+2025-11-18 08:11:47,558 - INFO - Starting scrape attempt: 1
+2025-11-18 08:11:48,654 - INFO - Scraped page 1 successfully
+2025-11-18 08:11:48,654 - INFO - Succeeded scrape attempt: 1
+2025-11-18 08:11:48,662 - INFO - Saved scraped data to data\raw\scraped_books.csv
+2025-11-18 08:13:26,616 - INFO - Starting scrape attempt: 1
+2025-11-18 08:13:27,925 - INFO - Scraped page 1 successfully
+2025-11-18 08:13:27,925 - INFO - Succeeded scrape attempt: 1
+2025-11-18 08:13:27,941 - INFO - Saved scraped data to data\raw\scraped_books.csv
+2025-11-18 08:13:51,847 - INFO - Starting scrape attempt: 1
+2025-11-18 08:13:52,897 - INFO - Scraped page 1 successfully
+2025-11-18 08:13:52,897 - INFO - Succeeded scrape attempt: 1
+2025-11-18 08:13:52,912 - INFO - Saved scraped data to data\raw\scraped_books.csv
