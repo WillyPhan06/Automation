@@ -2,8 +2,9 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 from pathlib import Path
-from utils import log_info, log_error
+from .utils import log_info, log_error
 import time
+from models.book import Book
 
 BASE_URL = "http://books.toscrape.com/catalogue/page-{}.html"
 
@@ -22,7 +23,7 @@ def scrape_books(start: int = 1, finish: int = 5):
                 price = raw_price.translate(str.maketrans("", "", "£$€Â"))
 
                 rating = book.p['class'][1]  # e.g., 'Three'
-                all_books.append([title, price, rating])
+                all_books.append(Book(title=title, price=float(price), rating=rating))
 
             log_info(f"Scraped page {page} successfully")
             return all_books
@@ -44,11 +45,6 @@ def scrape_with_retry(retries=3, delay=5, start=1, finish=5):
     return None
 
 if __name__ == "__main__":
-    books = scrape_with_retry(retries=2, delay=10, start=1, finish=3)
-    if books:
-        df = pd.DataFrame(books, columns=["Title", "Price", "Rating"])
-        raw_path = Path("data/raw/scraped_books.csv")
-        df.to_csv(raw_path, index=False, encoding="utf-8-sig")
-        log_info(f"Saved scraped data to {raw_path}")
+    print(Book(title="Sample Book", price=19.99, rating="Five"))
 
 

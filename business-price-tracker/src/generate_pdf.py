@@ -3,7 +3,7 @@ from reportlab.pdfgen import canvas
 import pandas as pd
 from pathlib import Path
 from datetime import datetime
-from utils import log_info, log_error
+from .utils import log_info, log_error
 
 def generate_pdf_report(df, output_path):
     try:

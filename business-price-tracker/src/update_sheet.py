@@ -1,7 +1,7 @@
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import pandas as pd
-from utils import log_info, log_error
+from .utils import log_info, log_error
 
 # Define the scope
 scope = ["https://spreadsheets.google.com/feeds",

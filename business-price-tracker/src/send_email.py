@@ -2,7 +2,7 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email import encoders
-from utils import EMAIL_USER, EMAIL_PASS, log_info, log_error
+from .utils import EMAIL_USER, EMAIL_PASS, log_info, log_error
 from pathlib import Path
 
 def send_email(to_email, subject, body, attachment_path):
