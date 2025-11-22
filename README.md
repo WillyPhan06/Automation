@@ -1,7 +1,3 @@
-Here’s a detailed README draft for your **Automation** repo with references to the screenshots in an `images` folder:
-
----
-
 # Automation – Life Made Easier
 
 This repository contains a Python-based automation project designed to streamline business price tracking. The automation updates Google Sheets, generates reports in PDF, and sends daily email notifications automatically.
